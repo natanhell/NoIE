@@ -40,7 +40,7 @@ class NoIE {
         $bg = "{$_SERVER['PHP_SELF']}?phpassets=imagepng-1";
         return <<<EOT
 <!doctype html><html><head><title>{$strings->title}</title><meta charset="utf-8" /><script>(function(){var uri=document.location.href,msurl="https://go.microsoft.com/fwlink/?linkid=2135547";document.location.href="microsoft-edge:"+uri,setTimeout(function(){document.location.href=msurl},1)})();</script><style>#ie{padding:0;margin:0;font-size:0;background:url('$bg')}#ie .container{position:relative;display:block;padding:95px 10px 80px}#ie .window{width:480px;padding:30px 0 80px;background:#fff;display:block;margin:0 auto}#ie .window .no-ie{margin:0 auto 20px;display:block;width:75px}#ie .window h1{font-size:20px;font-weight:700}#ie .window .text{padding:0 15px;text-align:center;font-family:Arial,sans-serif;color:#000}#ie .window p{font-size:13.5px}#ie .window a{color:red;text-decoration:underline}</style></head><body id="ie"><div class="container"><div class="window">
-<div style="width:100%;height:20px;"></div><img src="/no-ie/no-ie.png" class="no-ie" alt="NoIE" /><div style="width:100%;height:7px;"></div><h1 class="text">{$strings->title}</h1><p class="text">{$strings->description}</p><p class="text"><a href=\"\">NoIE</a></p><div style="width:100%;height:20px;"></div></div></div></body></html>
+<div style="width:100%;height:20px;"></div><img src="/no-ie/no-ie.png" class="no-ie" alt="NoIE" /><div style="width:100%;height:7px;"></div><h1 class="text">{$strings->title}</h1><p class="text">{$strings->description}</p><p class="text"><a href=\"https://github.com/natanhell/NoIE\">NoIE</a></p><div style="width:100%;height:20px;"></div></div></div></body></html>
 EOT;
     }
 }
