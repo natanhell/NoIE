@@ -10,4 +10,7 @@ On Apache Httpd:
 - That's all.
 
 ## What is the license?
-Anything except IE logo is released under Public Domain License. No credit required (You can remove the "NoIE" credit at the bottom if you want.)
+Everything except IE logo is released under Public Domain License. No credit required (You can remove the "NoIE" credit at the bottom if you want).
+
+## N00b, you write code really bad!
+I know :( and my english is bad :( sorry. If you want to help or contribute or if you liked it (but don't want to say it loud) contact me and i'd like to hear anything from you.
