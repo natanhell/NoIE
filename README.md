@@ -4,7 +4,7 @@ Single php file which detects IE (all versions), and if JS is enabled, website w
 It's my first published project ever (the rest will never be published).
 
 ## Will it affect firefox, chrome or any other modern browser?
-No. It will work only on IE and the website won't load at all because why wasting time when the browser is old and can't even work properly? It will load "no-ie" message only on IE.
+No. It will work only on IE and the website won't load at all (on IE) because why wasting time when the browser is old and can't even work properly?
 
 ## How to Use
 On Apache Httpd:
