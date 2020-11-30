@@ -10,7 +10,7 @@ No. It will work only on IE and the website won't load at all (on IE) because wh
 On Apache Httpd:
 
 - Download as Zip, and extract the files in public_html inside a directory named "no-ie".
-- Insert the following line to the first line of your htaccess file: `php_value auto_prepend_file "no-ie/no-ie.php"`
+- Insert the following line to the top of your htaccess file: `php_value auto_prepend_file "no-ie/no-ie.php"`
 - Test it on IE, with JS enabled (the page will be opened in Edge, if Edge is installed) and with JS disabled (will show a message).
 - That's all.
 
